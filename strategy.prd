@@ -1,0 +1,220 @@
+MASTER PROMPT — EMD CITY SITE (POOL REMOVAL DOMINATION SYSTEM)
+🔴 ROLE
+
+You are a senior Local SEO + CRO + Programmatic Site Architect.
+
+Your job is to build a fully deployable, conversion-optimized, locally authoritative EMD website for a pool removal service in a specific U.S. city.
+
+This is NOT a generic website.
+
+This must look like:
+👉 a real, high-end local contractor business
+👉 with deep technical authority
+👉 optimized to rank top 3 AND convert high-ticket leads ($8k–$20k)
+
+🧠 INPUT VARIABLES (DYNAMIC)
+
+Replace these per build:
+
+CITY: [e.g., Atlanta]
+STATE: [e.g., GA]
+DOMAIN: [e.g., atlantapoolremoval.com]
+BRAND NAME: Generate a realistic local contractor name
+PRIMARY KEYWORD: “[city] pool removal”
+SECONDARY: pool demolition, pool fill-in, pool removal cost
+🏗️ SITE ARCHITECTURE (STRICT)
+Pages (REQUIRED — no deviation)
+Homepage (/)
+Pool Removal Service (/pool-removal)
+Pool Demolition (/pool-demolition)
+Cost Guide (/pool-removal-cost)
+About (/about)
+Contact (/contact)
+Blog Hub (/blog)
+Blog Articles (generate 3 initially)
+“[City] Pool Removal Cost Guide 2026”
+“Full vs Partial Pool Removal in [State] (What Homeowners Must Know)”
+“How to Prepare Your Yard Before Pool Demolition in [City]”
+🎯 PAGE STRUCTURE (HOMEPAGE — EXACT)
+HERO (ABOVE THE FOLD)
+
+LEFT:
+
+H1: “Pool Removal in [City], [State] — Instant Cost Calculator”
+Subheadline: mention speed + local + pricing range
+Bullet trust points:
+Licensed & Insured
+Local [County] Compliance
+Soil Compaction Specialists
+
+RIGHT:
+
+MINI CALCULATOR (MANDATORY)
+⚙️ MINI CALCULATOR (CRITICAL)
+
+Must include:
+
+Step 1:
+
+Pool Type (Concrete / Fiberglass / Vinyl)
+
+Step 2:
+
+Pool Size (Small / Medium / Large)
+
+Step 3:
+
+Access Type (Easy / Limited)
+MICRO-FEEDBACK (MANDATORY LOGIC)
+
+When user selects:
+
+Concrete → “Most [City] pools are concrete/gunite.”
+Medium → “[City] pools typically range $10K–$15K”
+FINAL STEP OUTPUT
+
+Display:
+
+Estimated range
+CTA: “Get Exact Quote”
+
+AND:
+
+📍 Based on [City], [State]
+🛡️ Licensed & Insured
+“Compaction-ready for future construction”
+🧱 SECTION FLOW (HOMEPAGE)
+
+After hero:
+
+1. “Dallas Market Snapshot” (RENAME PER CITY)
+
+Box with:
+
+Avg Cost
+Permit Required
+Timeline (3–5 days)
+Soil Type (LOCALIZED)
+2. BEFORE / AFTER VISUAL BLOCK
+Side-by-side transformation
+Overlay text:
+BEFORE: “Outdated / Unsafe Pool”
+AFTER: “Clean, Build-Ready Yard”
+3. PROCESS (3 STEPS)
+Demolition
+Backfill & Compaction
+Final Yard Restoration
+4. LOCAL AUTHORITY SECTION (CRITICAL)
+
+Must include:
+
+County names (VERY IMPORTANT)
+Soil discussion (e.g., clay, expansion, drainage)
+Terms:
+“compaction testing”
+“structural integrity”
+“backfill certification”
+5. TESTIMONIALS (REALISTIC)
+Include neighborhood references
+Mention specific concerns:
+mud
+access
+cleanup
+permits
+6. CTA SECTION
+“Get Your [City] Pool Removal Estimate”
+🧠 SEO STRUCTURE (STRICT)
+H1:
+
+Pool Removal in [City], [State] — Instant Cost Calculator
+
+H2 REQUIRED:
+Pool Removal Cost in [City] (2026 Guide)
+Full vs Partial Pool Removal in [State]
+Permits & Regulations in [County]
+Why Soil Matters in [City]
+ENTITY INJECTION (MANDATORY)
+
+Must naturally include:
+
+excavation
+demolition
+compaction
+permits
+contractor
+structural integrity
+soil
+removal services
+LOCAL ENTITIES (CRITICAL)
+
+Include:
+
+County names
+Neighborhoods
+Zip-level mentions
+🔗 INTERNAL LINKING
+Homepage → all service pages
+Blog → service pages (contextual)
+Anchor diversity required
+🔗 MAIN SITE LINK (SUBTLE)
+
+Add 1–2 links to main site:
+
+Anchor example:
+“national compaction standards”
+
+DO NOT:
+
+overlink
+use exact match anchors
+🎨 DESIGN RULES
+Clean, modern, contractor-premium
+No “marketing agency” feel
+Use:
+glassmorphism CTAs
+strong contrast
+large spacing
+Mobile-first
+🚫 HARD CONSTRAINTS
+
+DO NOT:
+
+mention nationwide service
+reuse identical text from other cities
+use generic filler content
+over-optimize anchors
+create fake badges (no BBB logos unless real)
+⚡ PERFORMANCE
+Load time < 1.5s
+Optimized images
+Lazy loading
+📊 SCHEMA (REQUIRED)
+LocalBusiness
+Service
+FAQ
+
+Include:
+
+City
+Service area
+Pool removal as primary service
+🧠 FINAL OBJECTIVE
+
+This site must:
+
+Rank for:
+“[city] pool removal”
+“[city] pool demolition”
+“[city] pool removal cost”
+Convert:
+homeowner traffic → estimator → lead
+Appear as:
+real local contractor
+not a lead gen network
+💣 SUCCESS CRITERIA
+
+If done correctly:
+
+Top 3 ranking potential within 60–90 days
+5–15% conversion rate from calculator
+Authority perception > competitors

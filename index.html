@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scottsdale Pool Removal | Arroyo Excavation Co.</title>
+    <meta name="description" content="Scottsdale's pool removal specialists. Expert in caliche excavation, engineered backfill, and Maricopa County permits. North Scottsdale & Paradise Valley.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+            <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/">
+    <meta property="og:title" content="Scottsdale Pool Removal | Arroyo Excavation Co.">
+    <meta property="og:description" content="Scottsdale's pool removal specialists. Expert in caliche excavation, engineered backfill, and Maricopa County permits. Serving North Scottsdale, Paradise Valley, and surrounding areas.">
+    <meta property="og:image" content="https://scottsdalepoolremoval.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Scottsdale Pool Removal | Arroyo Excavation Co.">
+    <meta name="twitter:description" content="Scottsdale's pool removal specialists. Expert in caliche excavation, engineered backfill, and Maricopa County permits. Serving North Scottsdale, Paradise Valley, and surrounding areas."><link rel="canonical" href="https://scottsdalepoolremoval.com/">
+<link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://scottsdalepoolremoval.com/#business",
+          "name": "Arroyo Excavation Co.",
+          "description": "Scottsdale's pool removal specialists. Expert in caliche excavation, engineered backfill, and Maricopa County permit management for residential properties.",
+          "url": "https://scottsdalepoolremoval.com",
+          "telephone": "+14806130422",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Scottsdale",
+            "addressRegion": "AZ",
+            "postalCode": "85254",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 33.4942,
+            "longitude": -111.9261
+          },
+          "areaServed": [
+            { "@type": "City", "name": "Scottsdale" },
+            { "@type": "City", "name": "Paradise Valley" },
+            { "@type": "City", "name": "Fountain Hills" },
+            { "@type": "City", "name": "Tempe" },
+            { "@type": "PostalAddress", "postalCode": "85254" },
+            { "@type": "PostalAddress", "postalCode": "85255" },
+            { "@type": "PostalAddress", "postalCode": "85258" },
+            { "@type": "PostalAddress", "postalCode": "85259" }
+          ],
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "07:00",
+              "closes": "18:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Pool Removal Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Full Pool Removal Scottsdale",
+                  "description": "Complete extraction of concrete/gunite pool shell with 95% compaction certified backfill. Required for ADU builds and future construction in Maricopa County."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Partial Pool Demolition Scottsdale",
+                  "description": "Top-deck shell breaking with engineered drainage and compacted fill-in. Ideal for turf and landscaping projects in Scottsdale."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Caliche Rock Excavation Scottsdale",
+                  "description": "Specialized 1,500lb hydraulic hammer excavation for North Scottsdale and Paradise Valley caliche and granite soil formations."
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        /* ── CALCULATOR ─────────────────────────────── */
+        .calc-card {
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 24px;
+            padding: 2rem;
+            position: sticky;
+            top: 100px;
+        }
+        .calc-step { display: none; }
+        .calc-step.active { display: block; animation: fadeUp 0.35s ease-out; }
+        .calc-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--blue);
+            margin-bottom: 0.75rem;
+        }
+        .calc-question { font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.25rem; font-family: 'Outfit', sans-serif; }
+        .calc-opts { display: grid; gap: 0.6rem; }
+        .calc-opt {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 0.9rem 1.1rem;
+            color: var(--slate-300);
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-align: left;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .calc-opt:hover { background: rgba(255,255,255,0.07); border-color: var(--blue); color: white; }
+        .calc-opt.selected { background: rgba(59,130,246,0.15); border-color: var(--blue); color: white; }
+        .calc-feedback {
+            margin-top: 1rem;
+            min-height: 2.5rem;
+            font-size: 0.85rem;
+            color: var(--slate-400);
+            font-style: italic;
+            line-height: 1.5;
+        }
+        .calc-price-display {
+            text-align: center;
+            padding: 1.5rem 0 1rem;
+        }
+        .calc-price-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--slate-400); margin-bottom: 0.5rem; }
+        .calc-price-val { font-size: 2.4rem; font-family: 'Outfit', sans-serif; font-weight: 800; color: white; }
+        .calc-trust-lines { display: grid; gap: 0.4rem; margin: 1rem 0; }
+        .calc-trust-line { font-size: 0.8rem; color: var(--slate-400); display: flex; gap: 0.5rem; }
+        .calc-trust-line span:first-child { color: var(--blue); }
+        .calc-input {
+            width: 100%;
+            padding: 0.9rem 1rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            color: white;
+            font-family: inherit;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+        .calc-input:focus { outline: none; border-color: var(--blue); }
+        .calc-error { color: #f87171; font-size: 0.8rem; margin-bottom: 0.5rem; display: none; }
+        .calc-done { text-align: center; padding: 1.5rem 0; }
+        .calc-done-icon { width: 64px; height: 64px; border-radius: 50%; background: rgba(34,197,94,0.12); color: #4ade80; font-size: 2rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+
+        /* ── HERO ─────────────────────────────────── */
+        .hero-split { padding: 9rem 0 5rem; }
+        .hero-split-inner { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 4rem; align-items: start; }
+        .hero-left h1 { font-size: 3.5rem; margin: 1.2rem 0 1.25rem; line-height: 1.1; }
+        .hero-support { color: var(--slate-300); font-size: 1rem; line-height: 1.75; margin-bottom: 1.5rem; }
+        .hero-bullets { display: grid; gap: 0.5rem; margin-bottom: 2rem; }
+        .hero-bullet { display: flex; align-items: center; gap: 0.6rem; font-size: 0.9rem; color: var(--slate-300); font-weight: 500; }
+        .hero-bullet span:first-child { color: #4ade80; font-weight: 800; }
+
+        /* ── WHY DIFFERENT ───────────────────────── */
+        .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+        .why-img { border-radius: 24px; overflow: hidden; box-shadow: 0 40px 80px -20px rgba(0,0,0,0.6); }
+        .why-img img { width: 100%; height: 420px; object-fit: cover; }
+        .risk-list { display: grid; gap: 0.75rem; margin: 1.25rem 0; }
+        .risk-item { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.95rem; color: var(--slate-300); }
+        .risk-item span:first-child { color: #f87171; font-weight: 800; min-width: 16px; }
+        .fix-list { display: grid; gap: 0.75rem; margin: 1rem 0; }
+        .fix-item { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.95rem; color: var(--slate-300); }
+        .fix-item span:first-child { color: #4ade80; font-weight: 800; min-width: 16px; }
+
+        /* ── FEARS ───────────────────────────────── */
+        .fear-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+        .fear-card { border-radius: 20px; padding: 2rem; }
+        .fear-quote { font-size: 1.1rem; font-weight: 600; color: white; margin-bottom: 1rem; line-height: 1.5; font-style: italic; }
+        .fear-quote::before { content: '"'; color: var(--blue); font-size: 1.5rem; }
+        .fear-quote::after { content: '"'; color: var(--blue); font-size: 1.5rem; }
+        .fear-answer { font-size: 0.9rem; color: var(--slate-400); line-height: 1.65; }
+
+        /* ── TESTIMONIALS ────────────────────────── */
+        .testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .testimonial-card { border-radius: 20px; padding: 2rem; }
+        .testimonial-stars { color: #f59e0b; font-size: 1rem; margin-bottom: 1rem; letter-spacing: 2px; }
+        .testimonial-text { color: var(--slate-300); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.5rem; }
+        .testimonial-author { font-weight: 700; color: white; font-size: 0.9rem; }
+        .testimonial-location { color: var(--blue); font-size: 0.8rem; margin-top: 0.2rem; }
+
+        /* ── PARADISE VALLEY ─────────────────────── */
+        .pv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+        .pv-features { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 2rem; }
+        .pv-feature { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; padding: 1.25rem; }
+        .pv-feature h4 { color: white; font-size: 0.95rem; margin-bottom: 0.4rem; }
+        .pv-feature p { color: var(--slate-400); font-size: 0.85rem; line-height: 1.5; }
+
+        /* ── COST ────────────────────────────────── */
+        .cost-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+        .cost-range-card { border-radius: 20px; padding: 2rem; text-align: center; }
+        .cost-range-val { font-size: 2.5rem; font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--blue); display: block; }
+        .cost-range-label { color: var(--slate-400); font-size: 0.85rem; margin-top: 0.25rem; }
+        .cost-factor-list { display: grid; gap: 0.75rem; }
+        .cost-factor { display: flex; justify-content: space-between; align-items: center; padding: 0.9rem 1.25rem; background: rgba(255,255,255,0.02); border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; }
+        .cost-factor span:first-child { color: var(--slate-300); }
+        .cost-factor span:last-child { color: var(--blue); font-weight: 700; }
+
+        /* ── SERVICE AREA ────────────────────────── */
+        .area-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+        .area-chip { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 0.85rem 1.25rem; color: var(--slate-300); font-size: 0.9rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
+        .area-chip span:first-child { color: var(--blue); }
+
+        /* ── PHONE BAR ───────────────────────────── */
+        .phone-pill { display: flex; align-items: center; gap: 0.5rem; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); border-radius: 99px; padding: 0.4rem 1rem; font-size: 0.9rem; font-weight: 700; color: white; text-decoration: none; }
+        .phone-pill:hover { background: rgba(59,130,246,0.2); }
+
+        @media (max-width: 900px) {
+            .hero-split-inner, .why-grid, .pv-grid, .cost-grid { grid-template-columns: 1fr; }
+            .testimonial-grid, .fear-grid, .area-grid { grid-template-columns: 1fr; }
+            .pv-features { grid-template-columns: 1fr; }
+            .hero-left h1 { font-size: 2.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/index.html">Services</a>
+                <a href="/pool-removal-cost/index.html">Pricing</a>
+                <a href="/about/index.html">About</a>
+                <a href="/blog/index.html">Blog</a>
+                <a href="tel:+14806130422" class="phone-pill">📞 (480) 613-0422</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ── HERO ───────────────────────────────────────────── -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">LICENSED · BONDED · AZ ROC</span>
+                    <h1>Pool Removal in<br><span class="text-gradient">Scottsdale, AZ</span></h1>
+                    <p class="hero-support">
+                        Scottsdale is not a standard demolition job.<br>
+                        Between caliche soil, strict HOA guidelines, and high-value properties, pool removal here requires precision — not just excavation.<br><br>
+                        We specialize in engineered backfill, drainage control, and build-ready site preparation across North Scottsdale, Paradise Valley, and surrounding Maricopa County areas.
+                    </p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet"><span>✓</span> Caliche & Granite Geological Specialists</div>
+                        <div class="hero-bullet"><span>✓</span> Maricopa County Permit Fully Managed</div>
+                        <div class="hero-bullet"><span>✓</span> 95% Compaction — Backfill Certified</div>
+                        <div class="hero-bullet"><span>✓</span> No Hidden Costs Guarantee</div>
+                        <div class="hero-bullet"><span>✓</span> 3–5 Day Project Completion</div>
+                    </div>
+                </div>
+
+                <!-- ── CALCULATOR ── -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Free Scottsdale Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Answer 3 questions — we'll show your price range instantly.</p>
+
+                        <!-- Step 1: Pool Type -->
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <!-- Step 2: Pool Size -->
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <!-- Step 3: Access -->
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <!-- Result + Lead Form -->
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Your Estimated Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <div class="calc-trust-lines">
+                                <div class="calc-trust-line"><span>📍</span> Based on Scottsdale & Maricopa County conditions</div>
+                                <div class="calc-trust-line"><span>🛡️</span> Compaction aligned with local construction standards</div>
+                                <div class="calc-trust-line"><span>🏗️</span> Certified backfill for future landscaping or builds</div>
+                            </div>
+                            <p style="color: var(--slate-300); font-size: 0.85rem; margin: 1rem 0 0.75rem; font-weight: 600;">Get your exact quote — we'll call within 2 hours:</p>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number (480...)">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Estimate →</button>
+                        </div>
+
+                        <!-- Success -->
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A Scottsdale specialist will call you within 2 hours during business hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── STAT BAR ─────────────────────────────────────── -->
+        <section class="stat-bar">
+            <div class="container stat-bar-inner">
+                <div class="stat-item"><span class="stat-val">3–5 Days</span><span class="stat-label">Typical Timeline</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat-item"><span class="stat-val">95%</span><span class="stat-label">Compaction Standard</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat-item"><span class="stat-val">800+</span><span class="stat-label">Pools Removed</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat-item"><span class="stat-val">$0</span><span class="stat-label">Surprise Fees</span></div>
+            </div>
+        </section>
+
+        <!-- ── WHY SCOTTSDALE IS DIFFERENT ──────────────────── -->
+        <section class="section">
+            <div class="container why-grid">
+                <div>
+                    <span class="badge">LOCAL GEOLOGY EXPERTISE</span>
+                    <h2 style="font-size: 2.4rem; margin: 1.2rem 0 1rem;">Why Pool Removal in<br>Scottsdale Requires Specialists</h2>
+                    <p style="color: var(--slate-300); line-height: 1.75; margin-bottom: 1.25rem;">Unlike other cities, Scottsdale properties sit on dense caliche and decomposed granite layers. If handled incorrectly, this leads to:</p>
+                    <div class="risk-list">
+                        <div class="risk-item"><span>✗</span> Uneven settling beneath landscaping and patios</div>
+                        <div class="risk-item"><span>✗</span> Drainage failure during Monsoon season</div>
+                        <div class="risk-item"><span>✗</span> Foundation stress over time near the home</div>
+                    </div>
+                    <p style="color: var(--slate-300); line-height: 1.75; margin-bottom: 1rem; margin-top: 1.5rem;">That's why our process includes:</p>
+                    <div class="fix-list">
+                        <div class="fix-item"><span>✓</span> Layered backfill in 12" compacted lifts</div>
+                        <div class="fix-item"><span>✓</span> Moisture-conditioned compaction for desert soil</div>
+                        <div class="fix-item"><span>✓</span> Proctor density alignment for structural stability</div>
+                    </div>
+                    <p style="color: var(--slate-400); font-size: 0.95rem; margin-top: 1.5rem; line-height: 1.7;">This ensures your yard is not just filled — but ready for future landscaping, patios, or structural additions.</p>
+                </div>
+                <div class="why-img">
+                    <img src="/public/hero.png" alt="Scottsdale pool removal specialists">
+                </div>
+            </div>
+        </section>
+
+        <!-- ── BEFORE / AFTER ────────────────────────────────── -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">VISUAL PROOF</span>
+                    <h2>From Aging Pool to Build-Ready Yard</h2>
+                </div>
+                <div class="transform-grid">
+                    <div class="transform-card">
+                        <img src="/public/before-pool.png" alt="Before pool removal Scottsdale">
+                        <div class="transform-label">BEFORE — Cracked, Unused Pool</div>
+                    </div>
+                    <div class="transform-card">
+                        <img src="/public/after-pool.png" alt="After pool removal Scottsdale">
+                        <div class="transform-label after">AFTER — Certified Build-Ready Terrain</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── PARADISE VALLEY ────────────────────────────────── -->
+        <section class="section">
+            <div class="container">
+                <div class="pv-grid">
+                    <div>
+                        <span class="badge">LUXURY ESTATE SPECIALISTS</span>
+                        <h2 style="font-size: 2.4rem; margin: 1.2rem 0 1rem;">Pool Removal for<br><span class="brand-accent">Paradise Valley</span> & Luxury Estates</h2>
+                        <p style="color: var(--slate-300); line-height: 1.75; margin-bottom: 1.5rem;">In areas like Paradise Valley and North Scottsdale, pool removal isn't just about demolition — it's about protecting your property value. Large estate lots require a level of precision and care that standard crews cannot provide.</p>
+                        <div class="pv-features">
+                            <div class="pv-feature">
+                                <h4>Access Planning</h4>
+                                <p>Tight driveways, mature landscaping, and gated entries managed without damage.</p>
+                            </div>
+                            <div class="pv-feature">
+                                <h4>Hardscape Protection</h4>
+                                <p>Existing pavers, irrigation, and outdoor features preserved throughout demo.</p>
+                            </div>
+                            <div class="pv-feature">
+                                <h4>Precision Compaction</h4>
+                                <p>Certified for resale or new construction — fully documented for disclosure.</p>
+                            </div>
+                            <div class="pv-feature">
+                                <h4>Zero-Debris Policy</h4>
+                                <p>Clean job sites every time. No debris left behind on luxury properties.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="border-radius: 24px; overflow: hidden; box-shadow: 0 40px 80px -20px rgba(0,0,0,0.6);">
+                        <img src="/public/services-hero.png" alt="Paradise Valley pool removal" style="width: 100%; height: 480px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── HOMEOWNER FEARS ─────────────────────────────────── -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">WHAT HOMEOWNERS ASK US</span>
+                    <h2>What Scottsdale Homeowners Are Actually Worried About</h2>
+                    <p style="color: var(--slate-400); max-width: 600px; margin: 0.75rem auto 0; font-size: 1rem;">Most homeowners don't worry about the demolition — they worry about what happens after the pool is gone.</p>
+                </div>
+                <div class="fear-grid">
+                    <div class="fear-card glass card">
+                        <p class="fear-quote">Will my yard sink later?</p>
+                        <p class="fear-answer">Only if compaction is done wrong. Our multi-layer 12" lift method — with proctor density verification — ensures the ground is as stable as undisturbed native soil. We back this with a written settlement guarantee.</p>
+                    </div>
+                    <div class="fear-card glass card">
+                        <p class="fear-quote">Will this affect my foundation?</p>
+                        <p class="fear-answer">Not with engineered backfill. Scottsdale's caliche and granite subsoil is actually more stable than most markets. Our moisture-conditioned compaction process eliminates lateral soil movement risk near your home.</p>
+                    </div>
+                    <div class="fear-card glass card">
+                        <p class="fear-quote">Can I build on this area later?</p>
+                        <p class="fear-answer">Yes — with full extraction and our 95% compaction certification. Maricopa County requires this certification for any future structure above the old pool footprint. We provide it with every full-removal project.</p>
+                    </div>
+                    <div class="fear-card glass card">
+                        <p class="fear-quote">What happens with drainage during desert storms?</p>
+                        <p class="fear-answer">We grade specifically for Scottsdale's monsoon conditions — sloping away from the home and toward natural runoff paths. Our drainage engineering is built for the Arizona climate, not just "level and leave."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── TESTIMONIALS ───────────────────────────────────── -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">SCOTTSDALE HOMEOWNERS</span>
+                    <h2>What Our Clients Say</h2>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card glass card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Had an old cracked pool we never used. Our biggest concern was drainage since our lot slopes slightly toward the house. The team handled compaction properly and left the yard level enough for turf install. No issues at all."</p>
+                        <div class="testimonial-author">Mike R.</div>
+                        <div class="testimonial-location">North Scottsdale, AZ 85255</div>
+                    </div>
+                    <div class="testimonial-card glass card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"We were worried about damaging our existing landscaping and irrigation during removal. They flagged everything ahead of time, used a smaller loader through the side gate, and left zero mess. Exactly what we needed for our HOA."</p>
+                        <div class="testimonial-author">Sandra & Tom K.</div>
+                        <div class="testimonial-location">Paradise Valley, AZ 85253</div>
+                    </div>
+                    <div class="testimonial-card glass card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"HOA approval process was the biggest headache for us. They explained exactly what documentation we needed, handled the compaction certification, and got everything done within our timeline. Gainey Ranch has strict rules and they knew exactly how to work with them."</p>
+                        <div class="testimonial-author">David L.</div>
+                        <div class="testimonial-location">Gainey Ranch, Scottsdale AZ</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── PROCESS ────────────────────────────────────────── -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">OUR 3-STEP STANDARD</span>
+                    <h2>Our Pool Removal Process in Scottsdale</h2>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step card glass">
+                        <div class="step-num">01</div>
+                        <h3>Controlled Demolition</h3>
+                        <p>We break and remove the pool structure while protecting surrounding property and utilities. Micro-loaders deployed for tight Scottsdale lots where standard excavators can't fit.</p>
+                    </div>
+                    <div class="process-step card glass">
+                        <div class="step-num">02</div>
+                        <h3>Engineered Backfill</h3>
+                        <p>The cavity is filled in controlled 12" layers, compacted to match Scottsdale soil conditions — caliche and granite mix. Moisture-conditioned for long-term stability.</p>
+                    </div>
+                    <div class="process-step card glass">
+                        <div class="step-num">03</div>
+                        <h3>Final Grading & Site Prep</h3>
+                        <p>Laser-leveled grading ensures proper drainage and prepares the area for landscaping or future builds. Compaction certification issued same day.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── COST SECTION ───────────────────────────────────── -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">2026 PRICING GUIDE</span>
+                    <h2>Pool Removal Cost in Scottsdale</h2>
+                    <p style="color: var(--slate-400); max-width: 600px; margin: 0.75rem auto 0;">Use the calculator above for an estimate specific to your property, or review the price range breakdown below.</p>
+                </div>
+                <div class="cost-grid">
+                    <div>
+                        <div class="cost-range-card glass card" style="margin-bottom: 1.5rem;">
+                            <span class="cost-range-val">$10K – $18K</span>
+                            <div class="cost-range-label">Typical Scottsdale Pool Removal</div>
+                        </div>
+                        <p style="color: var(--slate-400); font-size: 0.9rem; line-height: 1.7;">Partial removal ("abandonment") may be lower cost, but full extraction is required if you plan to build on the site, sell to a developer, or need Maricopa County compaction certification.</p>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="/pool-removal-cost/index.html" class="btn btn-outline" style="color: white;">Full Pricing Guide →</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cost-factor-list glass card" style="padding: 0; overflow: hidden;">
+                            <div class="cost-factor" style="padding: 1rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <span>Maricopa County Permit</span><span>$250 – $600</span>
+                            </div>
+                            <div class="cost-factor" style="padding: 1rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <span>Caliche Soil Formation</span><span>+$1.5K – $4K</span>
+                            </div>
+                            <div class="cost-factor" style="padding: 1rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <span>Limited Yard Access</span><span>+$2K – $4K</span>
+                            </div>
+                            <div class="cost-factor" style="padding: 1rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <span>Partial Demolition</span><span>$8K – $11K</span>
+                            </div>
+                            <div class="cost-factor" style="padding: 1rem 1.5rem;">
+                                <span>Full Removal & Fill-In</span><span>$12K – $18K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── SERVICE AREA ───────────────────────────────────── -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">SERVICE AREA</span>
+                    <h2>Serving Scottsdale & Surrounding Areas</h2>
+                    <p style="color: var(--slate-400); margin-top: 0.75rem;">📍 Serving Maricopa County, AZ — Zip Codes: 85254 · 85255 · 85258 · 85259 · 85253</p>
+                </div>
+                <div class="area-grid">
+                    <div class="area-chip"><span>📍</span> North Scottsdale</div>
+                    <div class="area-chip"><span>📍</span> Paradise Valley</div>
+                    <div class="area-chip"><span>📍</span> DC Ranch</div>
+                    <div class="area-chip"><span>📍</span> Troon North</div>
+                    <div class="area-chip"><span>📍</span> Gainey Ranch</div>
+                    <div class="area-chip"><span>📍</span> Old Town Scottsdale</div>
+                    <div class="area-chip"><span>📍</span> McCormick Ranch</div>
+                    <div class="area-chip"><span>📍</span> Fountain Hills</div>
+                    <div class="area-chip"><span>📍</span> Tempe / Chandler</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ── FOOTER ─────────────────────────────────────────────── -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub" style="margin-top: 0.75rem;">Scottsdale Pool Removal Specialists<br>Licensed ROC · Maricopa County Demolition.<br>Serving Scottsdale, AZ & surrounding Maricopa County areas.<br>85254 · 85255 · 85258 · 85259</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <a href="/pool-removal/index.html">Full Pool Removal</a>
+                <a href="/pool-demolition/index.html">Partial Demolition</a>
+                <a href="/pool-removal-cost/index.html">Pricing Guide</a>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="/about/index.html">About Us</a>
+                <a href="/contact/index.html">Contact</a>
+                <a href="/blog/index.html">Blog & Resources</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ── MODAL (for nav CTA + other pages) ─────────────────── -->
+    <div id="quoteModal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close" onclick="window.closeQuoteModal()">&times;</button>
+            <div class="modal-progress-bar">
+                <div id="modalProgressBar" class="modal-progress-fill" style="width:33%"></div>
+            </div>
+            <div id="modalStep1" class="modal-step active">
+                <h3>Select Pool <span class="brand-accent">Type</span></h3>
+                <p class="modal-sub">Step 1 of 2 — Choose your construction.</p>
+                <div class="modal-options">
+                    <button class="modal-option-card" onclick="selectModalPool('concrete')">🏗️&nbsp;&nbsp;Concrete / Gunite</button>
+                    <button class="modal-option-card" onclick="selectModalPool('fiberglass')">🛥️&nbsp;&nbsp;Fiberglass</button>
+                    <button class="modal-option-card" onclick="selectModalPool('vinyl')">🏊&nbsp;&nbsp;Vinyl Liner</button>
+                </div>
+            </div>
+            <div id="modalStep2" class="modal-step">
+                <h3>Your <span class="brand-accent">Contact Info</span></h3>
+                <p class="modal-sub">Final step — we'll call with your estimate.</p>
+                <div class="modal-fields">
+                    <input type="text" id="modalName" placeholder="Full Name" class="modal-input">
+                    <input type="tel" id="modalPhone" placeholder="Phone Number" class="modal-input">
+                    <button class="btn btn-primary btn-block" onclick="submitModalLead()">Send My Estimate →</button>
+                </div>
+            </div>
+            <div id="modalSuccess" class="modal-step">
+                <div class="modal-success">
+                    <div class="success-icon">✓</div>
+                    <h3>Request Received!</h3>
+                    <p class="modal-sub">A Scottsdale specialist will call you shortly.</p>
+                    <button class="btn btn-outline btn-block" onclick="window.closeQuoteModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
