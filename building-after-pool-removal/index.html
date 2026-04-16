@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building After Pool Removal Scottsdale | ADU & Casita Pads</title>
+    <meta name="description" content="Can you build over a removed pool in Scottsdale? Yes—with our 95% certified compaction. Expert ground prep for guest houses, casitas, and ADUs in Scottsdale, AZ.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/building-after-pool-removal/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="Building After Pool Removal Scottsdale | ADU & Casita Pads">
+    <meta property="og:description" content="Can you build over a removed pool in Scottsdale? Yes—with our 95% certified compaction. Expert ground prep for guest houses and casitas.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/building-after-pool-removal/">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Building After Removal",
+        "item": "https://scottsdalepoolremoval.com/building-after-pool-removal/"
+      }]
+    }
+    </script>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">BUILD-READY CERTIFICATION</span>
+                    <h1 style="font-size:3.5rem; margin:1.2rem 0 1.5rem;">Can You Build Over<br><span class="text-gradient">A Removed Pool?</span></h1>
+                    <p style="font-size:1.15rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">The answer is **Yes** — but only if you follow professional geotechnical standards. We specialize in transforming outdated pools into "Build-Ready" structural pads for ADUs, Casitas, and luxury outdoor kitchens in Scottsdale.</p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> 95% Certified Proctor Compaction</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Geotechnical Engineering Stamps</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Build-Ready Soil Certification</div>
+                    </div>
+                </div>
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Build-Ready Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Estimate the cost for a full extraction and structural certification.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Structural Project Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Structural Quote →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A structural specialist will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: THE CRITICAL RULE -->
+        <section class="section">
+            <div class="container">
+                <div class="why-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+                    <div>
+                        <span class="badge">THE #1 RULE</span>
+                        <h2 style="font-size: 2.8rem; margin: 1.2rem 0 1rem;">Full Extraction vs.<br>Partial Demolition</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; margin-bottom: 2rem; font-size: 1.1rem;">If you plan to build **any** structural foundation over a former pool area (an ADU, Casita, Outdoor Kitchen, or even a Heavy Paver Driveway), you **cannot** use <a href="/pool-demolition/">Partial Demolition</a>. City of Scottsdale and Maricopa County codes require 100% concrete extraction and a <a href="/engineered-backfill/">certified backfill</a> to issue a building permit.</p>
+                        
+                        <div style="background: rgba(255,255,255,0.03); padding: 2.5rem; border-radius: 20px; border-left: 4px solid var(--blue);">
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Why Partial Fills Fail Construction</h4>
+                            <p style="color: var(--slate-400); font-size: 0.95rem;">When concrete is left in the ground, it creates "voids" and "unmanaged density." Over time, the soil shifts around the old shell, leading to foundation cracks in your new building. A certified full extraction eliminates this risk 100%.</p>
+                        </div>
+                    </div>
+                    <div style="background: var(--slate-900); padding: 3rem; border-radius: 24px; border: 1px solid var(--glass-border);">
+                        <h3 style="color: white; margin-bottom: 1.5rem;">The Certification Process</h3>
+                        <p style="color: var(--slate-400); font-size: 0.95rem; margin-bottom: 2rem;">We provide the "Proctor Tape" and engineering reports required for your new build permit.</p>
+                        <div class="process-list">
+                            <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                                <div style="color: var(--blue); font-weight: 800;">01</div>
+                                <div><strong>100% Extraction:</strong> All concrete, rebar, and plumbing is removed and hauled to a certified recycler.</div>
+                            </div>
+                            <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                                <div style="color: var(--blue); font-weight: 800;">02</div>
+                                <div><strong>Soil Analysis:</strong> We analyze the native soil to ensure the backfill material matches the hydration and density requirements.</div>
+                            </div>
+                            <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                                <div style="color: var(--blue); font-weight: 800;">03</div>
+                                <div><strong>Managed Lifts:</strong> We compact in 8-to-12 inch layers using industrial vibratory rollers.</div>
+                            </div>
+                            <div style="display: flex; gap: 1rem;">
+                                <div style="color: var(--blue); font-weight: 800;">04</div>
+                                <div><strong>Nuclear Density Test:</strong> A 3rd-party geotech firm verifies the <a href="/compaction-certification/">95% compaction</a> and issues the final stamp.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ADU FOCUS -->
+        <section class="section dark-section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 5rem; align-items: center;">
+                    <div style="background: var(--slate-800); border-radius: 24px; padding: 4rem; text-align: center; border: 1px solid var(--glass-border);">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🏠</div>
+                        <h3 style="color: white; font-size: 1.8rem; margin-bottom: 1rem;">From Pool to Casita</h3>
+                        <p style="color: var(--slate-400); font-size: 1rem; line-height: 1.7;">Converting your pool into an ADU (Accessory Dwelling Unit) is one of the highest-ROI home improvements in Scottsdale. We provide the "Clean Pad" your architect and general contractor need to start framing the day after we leave.</p>
+                    </div>
+                    <div>
+                        <span class="badge">INVESTMENT VALUE</span>
+                        <h2 style="font-size: 2.5rem; margin: 1rem 0;">Maximizing Your Scottsdale Lot Line</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem;">In areas like Old Town or mid-century Scottsdale, lot space is a premium. Removing a pool opens up 500–1,000 sq ft of high-value land. By certifying the ground, you turn "dead space" into "buildable equity."</p>
+                        <ul style="list-style: none; padding: 0; color: var(--slate-300); font-size: 1rem; line-height: 2;">
+                            <li>✓ <strong>Permit-Ready Pads:</strong> Guaranteed approval by Scottsdale Building Dept.</li>
+                            <li>✓ <strong>Utility Coordination:</strong> Capping or rerouting gas/elec for the new structure.</li>
+                            <li>✓ <strong>Flat-Grade Precision:</strong> Laser-leveled for immediate slab-on-grade work.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header" style="text-align: center;">
+                    <span class="badge">FAQ</span>
+                    <h2>Building & Construction Questions</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Can the city tell if it was a pool before?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Yes. Building inspectors view historical satellite imagery. If they see a pool was there and you don't have a certified 95% compaction report, they will deny your foundation permit. We provide the permanent legal proof you need.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Will my new building settle?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Not with our process. By reaching 95% Modified Proctor density, we ensure the ground is as stable (or more stable) than the surrounding virgin soil. We offer a 5-year structural guarantee on all build-ready pads.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Does this cost more than "Standard" removal?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Yes. Because it requires 100% concrete extraction, more "virgin" fill material, and 3rd-party geotechnical testing, structural pads generally cost 20-30% more than landscape-ready removals.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">What if I don't build for 5 years?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">The certification is permanent. It stays with the property deed. If you sell the home later, the new owner can build on the pad knowing it was professionally engineered.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
+            </div>
+            <div class="footer-links">
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

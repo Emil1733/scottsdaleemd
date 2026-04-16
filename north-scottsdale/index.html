@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Scottsdale Pool Removal | DC Ranch & Troon Specialists</title>
+    <meta name="description" content="Expert pool removal in North Scottsdale (85255, 85266, 85262). Specialized mountain rock excavation, Troon/DC Ranch HOA compliance, and 95% certified backfill. Get a free quote!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/north-scottsdale/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="North Scottsdale Pool Removal | DC Ranch & Troon Specialists">
+    <meta property="og:description" content="Expert pool removal in North Scottsdale. Specialized mountain rock excavation, steep-lot logistics, and DC Ranch/Troon HOA compliance.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/north-scottsdale/">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "North Scottsdale",
+        "item": "https://scottsdalepoolremoval.com/north-scottsdale/"
+      }]
+    }
+    </script>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">NORTH SCOTTSDALE GEOLOGY</span>
+                    <h1 style="font-size:4rem; margin:1.2rem 0 1.5rem;">North Scottsdale<br><span class="text-gradient">Pool Removal Specialists</span></h1>
+                    <p style="font-size:1.25rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">North Scottsdale isn't a simple dig. From the granite bases of Pinnacle Peak to the technical HOAs of DC Ranch, pool removal here requires geological expertise and strict regulatory alignment.</p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Granite Excavation Experts</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Hillside Slope Management</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> HOA Pre-Approval Coordination</div>
+                    </div>
+                </div>
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 North Scottsdale Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Calculate the cost of rock-heavy pool removal in 85255/85262.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Estimated Price Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My North Quote →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A rock specialist will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: GEOLOGY -->
+        <section class="section">
+            <div class="container">
+                <div class="why-grid">
+                    <div>
+                        <span class="badge">GEOLOGICAL REALITY</span>
+                        <h2 style="font-size: 2.8rem; margin: 1.2rem 0 1rem;">Granite, Rock, &<br>Steep-Slope Logistics</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; margin-bottom: 2rem; font-size: 1.1rem;">North Scottsdale properties often sit on decomposing granite and mountain rock formations. Unlike the valley floor, these <a href="/caliche-excavation/">rock excavations</a> require larger breakers and careful vibrational monitoring to protect existing retaining walls and hillside foundation structures.</p>
+                        
+                        <div class="fix-list">
+                            <div class="fix-item"><span>⛰️</span> **Rock-Breaking Expertise**: We manage the granite layers found in DC Ranch and Troon without the cost overruns common with inexperienced contractors who break their equipment on the rock.</div>
+                            <div class="fix-item"><span>🚜</span> **Steep-Grade Specialists**: Many North Scottsdale pools are built into hillsides. We safely manage the structural terracing and moisture-controlled backfill required to prevent hillside erosion.</div>
+                            <div class="fix-item"><span>📋</span> **HOA Committee Liaison**: We understand the specific architectural guidelines of Grayhawk, Estancia, and Desert Mountain. We handle the paperwork, noise restrictions, and street-damage bonds for you.</div>
+                        </div>
+                    </div>
+                    <div class="why-img">
+                        <div style="background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 2.5rem;">
+                            <h3 style="color:white; margin-bottom:1.5rem; font-size: 1.5rem;">The "North" Standard</h3>
+                            <p style="color:var(--slate-400); font-size:0.95rem; margin-bottom:1.5rem;">For homeowners in 85255 and 85262, a pool removal must be a permanent, documented improvement.</p>
+                            <ul style="color:var(--slate-300); font-size:1rem; line-height:2.2;">
+                                <li><strong>Hillside Drainage:</strong> Engineered runoff management to protect lower neighbors.</li>
+                                <li><strong>95% Compaction:</strong> Certified by independent engineers for <a href="/building-after-pool-removal/">future structures</a> or expanded patios.</li>
+                                <li><strong>Zero-Dust Ops:</strong> Protecting the pristine air quality of North Scottsdale desert washes.</li>
+                                <li><strong>Street Protection:</strong> Ensuring heavy haulers don't damage your community blocks.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: HOA COMPLIANCE -->
+        <section class="section dark-section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; align-items: center;">
+                    <div style="background: var(--slate-800); border-radius: 24px; padding: 3rem; border: 1px solid var(--glass-border);">
+                        <h3 style="color: white; margin-bottom: 1.5rem;">HOA Approval Management</h3>
+                        <p style="color: var(--slate-400); font-size: 0.95rem; margin-bottom: 2rem;">North Scottsdale HOAs are among the strictest in the country. We provide the technical drawings, project timelines, and insurance certificates they require.</p>
+                        <ul style="list-style: none; padding: 0; color: var(--slate-300); font-size: 0.9rem;">
+                            <li style="margin-bottom: 1rem;">✅ <strong>DC Ranch:</strong> Strict noise windows and debris route management.</li>
+                            <li style="margin-bottom: 1rem;">✅ <strong>Troon North:</strong> Mountain-preservation standards for wash-adjacent lots.</li>
+                            <li style="margin-bottom: 1rem;">✅ <strong>Desert Mountain:</strong> Guard-gated access logistics and specialized street cleaning.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="badge">REGULATORY MASTERY</span>
+                        <h2 style="font-size: 2.5rem; margin: 1rem 0;">We Speak the Language of Your Architectural Committee</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; font-size: 1.1rem; margin-bottom: 1.5rem;">Most pool removal delays in North Scottsdale happen at the paperwork stage. By providing "Build-Ready" <a href="/compaction-certification/">95% compaction plans</a> upfront, we help you breeze through committee approvals for future landscaping or outdoor kitchen additions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
+            </div>
+            <div class="footer-links">
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

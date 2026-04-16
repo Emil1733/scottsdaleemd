@@ -27,23 +27,24 @@ const calcFeedback = {
 
 window.calcSelect = function(category, value, el) {
     calcData[category] = value
+    const currentStep = el.closest('.calc-step')
     el.closest('.calc-opts').querySelectorAll('.calc-opt').forEach(b => b.classList.remove('selected'))
     el.classList.add('selected')
 
-    const fb = document.getElementById('calcFeedback')
+    const fb = currentStep.querySelector('.calc-feedback') || document.getElementById('calcFeedback')
     if (fb && calcFeedback[category]?.[value]) fb.textContent = calcFeedback[category][value]
 
     setTimeout(() => {
-        if (category === 'type')   switchCalc('calcStep1', 'calcStep2')
-        if (category === 'size')   switchCalc('calcStep2', 'calcStep3')
-        if (category === 'access') showCalcResult()
+        const nextStep = currentStep.nextElementSibling
+        if (nextStep && nextStep.classList.contains('calc-step') && nextStep.id !== 'calcResult') {
+            currentStep.classList.remove('active')
+            nextStep.classList.add('active')
+            const nextFb = nextStep.querySelector('.calc-feedback') || document.getElementById('calcFeedback')
+            if (nextFb) nextFb.textContent = ''
+        } else {
+            showCalcResult()
+        }
     }, 350)
-}
-
-function switchCalc(hide, show) {
-    document.getElementById(hide).classList.remove('active')
-    document.getElementById(show).classList.add('active')
-    document.getElementById('calcFeedback').textContent = ''
 }
 
 function showCalcResult() {
@@ -57,7 +58,8 @@ function showCalcResult() {
 
     calcData.priceRange = `$${min.toLocaleString()} – $${max.toLocaleString()}`
     document.getElementById('calcPrice').textContent = calcData.priceRange
-    document.getElementById('calcStep3').classList.remove('active')
+    
+    document.querySelectorAll('.calc-step').forEach(step => step.classList.remove('active'))
     document.getElementById('calcResult').classList.add('active')
 }
 
@@ -79,7 +81,7 @@ window.calcSubmitLead = async function() {
         pool_type: calcData.type,
         pool_size: calcData.size,
         estimated_price_range: calcData.priceRange,
-        source_page: 'scottsdale-emd-calculator'
+        source_page: `scottsdale-emd-calculator | ${window.location.pathname}`
     }])
 
     if (!error) {
@@ -125,7 +127,7 @@ window.submitModalLead = async function() {
         full_name: name,
         phone: phone,
         pool_type: window.modalLeadData?.pool_type,
-        source_page: 'scottsdale-emd-modal'
+        source_page: `scottsdale-emd-modal | ${window.location.pathname}`
     }])
 
     if (!error) {

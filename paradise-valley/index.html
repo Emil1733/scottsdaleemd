@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Valley Pool Removal | Luxury Estate Specialists</title>
+    <meta name="description" content="White-glove pool removal for Paradise Valley (85253) luxury estates. Specialized tight-access demolition, stone-driveway protection, and 95% certified backfill. Get a free quote!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/paradise-valley/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="Paradise Valley Pool Removal | Luxury Estate Specialists">
+    <meta property="og:description" content="White-glove pool removal for Paradise Valley luxury estates. Specialized tight-access demolition, stone-driveway protection, and 95% certified geotechnical backfill.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/paradise-valley/">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Paradise Valley",
+        "item": "https://scottsdalepoolremoval.com/paradise-valley/"
+      }]
+    }
+    </script>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">PARADISE VALLEY AUTHORITY</span>
+                    <h1 style="font-size:4rem; margin:1.2rem 0 1.5rem;">Paradise Valley<br><span class="text-gradient">Pool Removal Specialists</span></h1>
+                    <p style="font-size:1.25rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">In Paradise Valley, pool removal isn't just demolition—it's property asset management. We provide white-glove service for high-value estates where landscape preservation and surgical precision are the only acceptable standards.</p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> White-Glove Estate Care</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Custom Driveway Protection</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Certified Resale Documentation</div>
+                    </div>
+                </div>
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Private PV Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Estimate the cost of luxury pool removal in 85253.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Estimated Price Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Estate Quote →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A private consultant will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: ESTATE LOGISTICS -->
+        <section class="section">
+            <div class="container">
+                <div class="why-grid">
+                    <div>
+                        <span class="badge">ESTATE LOGISTICS</span>
+                        <h2 style="font-size: 2.8rem; margin: 1.2rem 0 1rem;">Managed Access &<br>Zero-Debris Policy</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; margin-bottom: 2rem; font-size: 1.1rem;">Paradise Valley properties often feature mature specimen cacti, custom paver driveways, and tight gated entries that make standard excavation impossible. We plan every square inch of our movements before the first pound of concrete is broken.</p>
+                        
+                        <div class="fix-list">
+                            <div class="fix-item"><span>🏰</span> **Tight Access Specialist**: We deploy specialized micro-excavators and loaders that fit through residential gates without requiring wall removal or irrigation disruption.</div>
+                            <div class="fix-item"><span>🏜️</span> **Landscape Preservation**: We use high-density ground protection mats to ensure heavy machinery never leaves a mark on your custom stone drive or xeriscaped lot.</div>
+                            <div class="fix-item"><span>🧼</span> **Zero-Debris Commitment**: Our team operates under a clean-site mandate. Active <a href="/pool-removal-permits/">Rule 310 dust suppression</a> means no localized silica dust on your windows or your neighbor's property.</div>
+                        </div>
+                    </div>
+                    <div class="why-img">
+                        <div style="background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 2.5rem;">
+                            <h3 style="color:white; margin-bottom:1.5rem; font-size: 1.5rem;">PV Resale Protections</h3>
+                            <p style="color:var(--slate-400); font-size:0.95rem; margin-bottom:1.5rem;">Removing a pool in the 85253 zip code requires a specific eye for future property valuation.</p>
+                            <ul style="color:var(--slate-300); font-size:1rem; line-height:2.2;">
+                                <li><strong>Certified Engineering Reports:</strong> Mandatory for proper real estate disclosure.</li>
+                                <li><strong>95% Compaction:</strong> Ensuring the yard is <a href="/building-after-pool-removal/">build-ready</a> for future casitas or courts.</li>
+                                <li><strong>Signature Landscaping:</strong> Grading that respects the aesthetics of Mummy Mountain views.</li>
+                                <li><strong>HOA Compliance:</strong> Expert management of the strict PV architectural committees.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: THE "QUIET-SITE" MANDATE -->
+        <section class="section dark-section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center;">
+                    <div>
+                        <span class="badge">VIBRATION CONTROL</span>
+                        <h2 style="font-size: 2.5rem; margin: 1rem 0;">Protecting the Integrity of<br>Paradise Valley Foundations</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; font-size: 1.1rem; margin-bottom: 2rem;">Luxury homes in Paradise Valley often use complex post-tension slabs or extensive glass walls. Standard demolition vibrations can create costly hairline fractures. We use **Surgical Shell Scoring**—pre-cutting the pool shell to isolate vibrations before breaking begins.</p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div class="spec-mini-card" style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--glass-border);">
+                                <h4 style="color: white; margin-bottom: 0.5rem;">Noise Windows</h4>
+                                <p style="color: var(--slate-400); font-size: 0.85rem;">Strict adherence to PV noise ordinances (7am-5pm) and neighbor-first project scheduling.</p>
+                            </div>
+                            <div class="spec-mini-card" style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--glass-border);">
+                                <h4 style="color: white; margin-bottom: 0.5rem;">Vibration Monitoring</h4>
+                                <p style="color: var(--slate-400); font-size: 0.85rem;">Electronic monitoring near existing structures to ensure safe impact thresholds are never exceeded.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background: var(--slate-800); border-radius: 24px; padding: 4rem; text-align: center; border: 1px solid var(--glass-border);">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🤫</div>
+                        <h3 style="color: white;">The Quiet-Site Advantage</h3>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Our method reduces neighbor complaints by up to 80% compared to traditional jackhammer-only removal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
+            </div>
+            <div class="footer-links">
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pool Removal Cave Creek & Carefree AZ | High-Rock Specialist</title>
+    <meta name="description" content="Specialized pool removal for Cave Creek (85331) and Carefree, AZ. Heavy-rock excavation specialists using 1,500lb breakers. We handle remote lots and 95% certified backfill. Get a quote.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/cave-creek/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="Pool Removal Cave Creek | Arroyo Excavation Co.">
+    <meta property="og:description" content="Specialized pool removal in Cave Creek. We handle the unique geological and regulatory requirements of the Carefree and Cave Creek areas.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/cave-creek/">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cave Creek",
+        "item": "https://scottsdalepoolremoval.com/cave-creek/"
+      }]
+    }
+    </script>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">CAVE CREEK GEOLOGY</span>
+                    <h1 style="font-size:3.5rem; margin:1.2rem 0 1.5rem;">Cave Creek Pool Removal<br><span class="text-gradient">& Extreme Rock Excavation</span></h1>
+                    <p style="font-size:1.15rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">Cave Creek and Carefree are famous for their desert beauty—and their solid granite subsoil. If you're removing a pool here, you aren't digging dirt; you're mining rock. We provide the heavy machinery required to reclaim your lot.</p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> 1,500lb Hydraulic impact hammers</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Remote Lot Logistics Specialist</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Desert Wash Compliance Grading</div>
+                    </div>
+                </div>
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Cave Creek Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Answer 3 questions — we'll calculate your desert rock project estimate.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Estimated Price Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Desert Quote →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A desert specialist will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: THE ROCK -->
+        <section class="section">
+            <div class="container">
+                <div class="why-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+                    <div>
+                        <span class="badge">TECHNICAL REALITY</span>
+                        <h2 style="font-size: 2.8rem; margin: 1.2rem 0 1rem;">Solid Granite &<br>Subterranean Bedrock</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; margin-bottom: 2rem; font-size: 1.1rem;">In Cave Creek/Carefree, pool contractors often hit "The Wall"—solid subterranean granite formations that stop standard machinery. If your pool removal isn't paired with specialized hydraulic breakers, the project can stall for weeks. We deploy industrial-grade hammers that make quick work of desert bedrock.</p>
+                        
+                        <div class="fix-list">
+                            <div class="fix-item"><span>⛏️</span> **1,500lb Hydraulic Breakers**: Purpose-built for desert rock penetration (85331 zip code specialist).</div>
+                            <div class="fix-item"><span>🚜</span> **Remote Site Capability**: We manage the unique logistics of Cave Creek's semi-rural lots and unpaved access roads.</div>
+                            <div class="fix-item"><span>🌵</span> **Xeriscape Ready**: Our final grading respects the natural desert wash patterns of your property.</div>
+                        </div>
+                    </div>
+                    <div style="background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 2.5rem;">
+                        <h3 style="color:white; margin-bottom:1.5rem; font-size: 1.5rem;">The "Desert" Specs</h3>
+                        <p style="color:var(--slate-400); font-size:0.95rem; margin-bottom:1.5rem;">Cave Creek homeowners need a solution that respects the natural lot integrity while removing the artificial pool structure.</p>
+                        <ul style="color:var(--slate-300); font-size:1rem; line-height:2.2;">
+                            <li><strong>Rule 310 Compliance:</strong> Strict dust control for pristine desert air quality.</li>
+                            <li><strong>95% Proctor Compaction:</strong> Ensuring ground stability for future desert-scaping or ADUs.</li>
+                            <li><strong>Natural Drainage:</strong> Ensuring your filled pool doesn't disrupt native desert runoff.</li>
+                            <li><strong>Utility Capping:</strong> Professional gas/electric/water termination per local code.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ACCESS -->
+        <section class="section dark-section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                    <div style="background: var(--slate-800); border-radius: 24px; padding: 4rem; text-align: center; border: 1px solid var(--glass-border);">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🗺️</div>
+                        <h3 style="color: white; font-size: 1.8rem;">Difficult Access Specialist</h3>
+                        <p style="color: var(--slate-400); margin-top: 1rem;">Cave Creek lots are often complex—winding driveways, massive boulders, and narrow gates. We use high-HP micro-loaders to navigate your lot without moving a single landscape rock.</p>
+                    </div>
+                    <div>
+                        <span class="badge">LOGISTICAL MASTERY</span>
+                        <h2 style="font-size: 2.5rem; margin: 1rem 0;">We Navigate the Challenges of Cave Creek Estates</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; font-size: 1.1rem; margin-bottom: 2rem;">From the Black Mountain foothills to the ranch estates of carefree, we understand the specific soil conditions and access requirements. We handle the 100% of the permitting, machine travel, and debris hauling for even the most remote desert lots.</p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--glass-border);">
+                                <h4 style="color: white; margin-bottom: 0.5rem;">Gate-Safe Fleet</h4>
+                                <p style="color: var(--slate-400); font-size: 0.85rem;">Equipment designed to fit through tight gated entries without wall removal.</p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--glass-border);">
+                                <h4 style="color: white; margin-bottom: 0.5rem;">Rock Protection</h4>
+                                <p style="color: var(--slate-400); font-size: 0.85rem;">Shielding your existing desert boulders and specimen cacti during extraction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: FAQ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header" style="text-align: center;">
+                    <span class="badge">FAQ</span>
+                    <h2>Cave Creek & Carefree Questions</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Is a pool removal more expensive in Cave Creek?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Typically, yes—the abundance of granite bedrock usually requires more machine-hours with hydraulic breakers. Most projects add $1,500 - $3,000 for rock-specific labor.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Do you handle the permit with the Town of Cave Creek?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Yes. We manage both the Town of Cave Creek/Carefree building permits and the Maricopa County Environmental health filings (MCESD).</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Can I build a guest house over the pool?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">If you choose our full extraction and 95% certified backfill, yes. This makes the surface structurally sound for casitas, ADUs, or workshops.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2.5rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">How is dust controlled in the desert breeze?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">We use active misting systems that saturate the shell as we break, ensuring Rule 310 compliance even during the afternoon desert breeze.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
+            </div>
+            <div class="footer-links">
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

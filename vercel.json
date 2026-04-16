@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/((?!.well-known/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.scottsdalepoolremoval.com"
+        }
+      ],
+      "destination": "https://scottsdalepoolremoval.com/$1",
+      "permanent": true
+    }
+  ]
+}

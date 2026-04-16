@@ -7,62 +7,115 @@
     <meta name="description" content="Full pool removal, partial demolition, and caliche rock excavation in Scottsdale. 95% compaction guaranteed. Licensed Maricopa County specialists.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
-            <meta property="og:type" content="website">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/pool-removal/">
+    <meta property="og:type" content="article">
     <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="Pool Removal Services Scottsdale | Full Extraction & Partial Demo">
+    <meta property="og:description" content="Professional pool removal services in Scottsdale. We specialize in full concrete extraction, 95% certified compaction, and build-ready pads for ADUs.">
     <meta property="og:url" content="https://scottsdalepoolremoval.com/pool-removal/">
-    <meta property="og:title" content="Pool Removal Services in Scottsdale, AZ | Arroyo Excavation Co.">
-    <meta property="og:description" content="Full pool removal, partial demolition, and caliche rock excavation in Scottsdale. 95% compaction guaranteed. Licensed Maricopa County specialists.">
-    <meta property="og:image" content="https://scottsdalepoolremoval.com/og-image.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pool Removal Services in Scottsdale, AZ | Arroyo Excavation Co.">
-    <meta name="twitter:description" content="Full pool removal, partial demolition, and caliche rock excavation in Scottsdale. 95% compaction guaranteed. Licensed Maricopa County specialists."><link rel="canonical" href="https://scottsdalepoolremoval.com/pool-removal/">
+    <link rel="stylesheet" href="/style.css">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Pool Removal Scottsdale AZ",
-      "description": "Full pool removal, partial demolition, and caliche rock excavation for Scottsdale and Maricopa County residential properties. Engineered backfill with 95% compaction certification.",
-      "provider": { "@type": "LocalBusiness", "name": "Arroyo Excavation Co.", "telephone": "+14806130422", "url": "https://scottsdalepoolremoval.com" },
-      "areaServed": { "@type": "City", "name": "Scottsdale", "containedInPlace": { "@type": "AdministrativeArea", "name": "Maricopa County" } },
-      "serviceType": "Pool Removal",
-      "offers": [
-        { "@type": "Offer", "name": "Full Pool Removal", "priceRange": "$12000-$18000" },
-        { "@type": "Offer", "name": "Partial Pool Demolition", "priceRange": "$8000-$11000" },
-        { "@type": "Offer", "name": "Caliche Rock Excavation", "priceRange": "$1500-$4000" }
-      ]
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://scottsdalepoolremoval.com/pool-removal/"
+      }]
     }
     </script>
-<link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header class="header glass">
         <nav class="nav-container container">
             <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
             <div class="nav-links">
-                <a href="/pool-removal/index.html">Services</a>
-                <a href="/pool-removal-cost/index.html">Pricing</a>
-                <a href="/about/index.html">About</a>
-                <a href="/blog/index.html">Blog</a>
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
                 <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- HERO -->
-        <section class="services-hero">
-            <div class="container services-hero-inner">
-                <div>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
                     <span class="badge">MARICOPA AUTHORITY</span>
                     <h1 style="font-size:3.5rem; margin:1.2rem 0 1.5rem;">Pool Removal Services<br><span class="text-gradient">in Scottsdale, AZ</span></h1>
                     <p style="font-size:1.15rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">Engineered demolition and specialized geotechnical excavation for Scottsdale's most exclusive residential estates.</p>
-                    <div class="btn-row">
-                        <button onclick="window.showQuoteModal()" class="btn btn-primary">Request Site Visit</button>
-                        <a href="#services-cards" class="btn btn-outline">Our Solutions</a>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Full Extraction & Partial Demo</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> 95% Certified Backfill</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> All Permits Managed</div>
                     </div>
                 </div>
-                <div class="services-img">
-                    <img src="/public/services-hero.png" alt="Scottsdale pool removal service">
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Free Scottsdale Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Answer 3 questions — we'll show your price range instantly.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Estimated Price Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Estimate →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A specialist will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -109,12 +162,12 @@
             </div>
         </section>
 
-        <!-- PROCESS SPLIT -->
+        <!-- PROCESS -->
         <section class="section">
             <div class="container">
                 <div class="process-split">
                     <div class="process-img">
-                        <img src="/public/hero.png" alt="Pool removal process Scottsdale">
+                        <img src="/hero.png" alt="Pool removal process Scottsdale">
                     </div>
                     <div>
                         <span class="badge">THE STANDARD</span>
@@ -153,59 +206,28 @@
         <div class="container footer-grid">
             <div>
                 <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
-                <p class="footer-sub">Scottsdale Pool Removal Specialists<br>Licensed ROC · Maricopa County Demolition.</p>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
             </div>
             <div class="footer-links">
-                <h4>Services</h4>
-                <a href="/pool-removal/index.html">Full Pool Removal</a>
-                <a href="/pool-demolition/index.html">Partial Demolition</a>
-                <a href="/pool-removal-cost/index.html">Pricing Guide</a>
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
             </div>
             <div class="footer-links">
-                <h4>Company</h4>
-                <a href="/about/index.html">About Us</a>
-                <a href="/contact/index.html">Contact</a>
-                <a href="/blog/index.html">Blog & Resources</a>
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
             </div>
         </div>
     </footer>
 
-    <div id="quoteModal" class="modal-overlay">
-        <div class="modal-container">
-            <button class="modal-close" onclick="window.closeQuoteModal()">&times;</button>
-            <div class="modal-progress-bar">
-                <div id="modalProgressBar" class="modal-progress-fill" style="width:33%"></div>
-            </div>
-            <div id="modalStep1" class="modal-step active">
-                <h3>Select Pool <span class="brand-accent">Type</span></h3>
-                <p class="modal-sub">Step 1 of 2 — Choose your construction.</p>
-                <div class="modal-options">
-                    <button class="modal-option-card" onclick="selectModalPool('concrete')">🏗️&nbsp;&nbsp;Concrete / Gunite</button>
-                    <button class="modal-option-card" onclick="selectModalPool('fiberglass')">🛥️&nbsp;&nbsp;Fiberglass</button>
-                    <button class="modal-option-card" onclick="selectModalPool('vinyl')">🏊&nbsp;&nbsp;Vinyl Liner</button>
-                </div>
-            </div>
-            <div id="modalStep2" class="modal-step">
-                <h3>Your <span class="brand-accent">Contact Info</span></h3>
-                <p class="modal-sub">Final step — we'll call with your estimate.</p>
-                <div class="modal-fields">
-                    <input type="text" id="modalName" placeholder="Full Name" class="modal-input">
-                    <input type="tel" id="modalPhone" placeholder="Phone Number" class="modal-input">
-                    <button class="btn btn-primary btn-block" onclick="submitModalLead()">Send My Estimate →</button>
-                </div>
-            </div>
-            <div id="modalSuccess" class="modal-step">
-                <div class="modal-success">
-                    <div class="success-icon">✓</div>
-                    <h3>Request Received!</h3>
-                    <p class="modal-sub">A Scottsdale specialist will call you shortly.</p>
-                    <button class="btn btn-outline btn-block" onclick="window.closeQuoteModal()">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script type="module" src="/main.js"></script>
-    <script>window.closeQuoteModal = () => document.getElementById('quoteModal').style.display = 'none';</script>
 </body>
 </html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caliche Rock Excavation Scottsdale | Hard Dig Pool Specialists</title>
+    <meta name="description" content="Specialized caliche and hardpan excavation in Scottsdale. We use 1,500lb hydraulic hammers to penetrate Arizona rock layers. 95% compaction & monsoon-ready drainage technical specs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://scottsdalepoolremoval.com/caliche-excavation/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arroyo Excavation Co.">
+    <meta property="og:title" content="Caliche Rock Excavation Scottsdale | Hard Dig Pool Specialists">
+    <meta property="og:description" content="Specialized caliche and hardpan excavation in Scottsdale. We use 1,500lb hydraulic hammers to penetrate Arizona rock layers. 95% compaction certified.">
+    <meta property="og:url" content="https://scottsdalepoolremoval.com/caliche-excavation/">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://scottsdalepoolremoval.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Caliche Excavation",
+        "item": "https://scottsdalepoolremoval.com/caliche-excavation/"
+      }]
+    }
+    </script>
+</head>
+<body>
+    <header class="header glass">
+        <nav class="nav-container container">
+            <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+            <div class="nav-links">
+                <a href="/pool-removal/">Services</a>
+                <a href="/pool-removal-cost/">Pricing</a>
+                <a href="/about/">About</a>
+                <a href="/blog/">Blog</a>
+                <button onclick="window.showQuoteModal()" class="btn btn-primary">Get Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO WITH CALCULATOR -->
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-left">
+                    <span class="badge">GEOTECHNICAL EXPERTISE</span>
+                    <h1 style="font-size:3.5rem; margin:1.2rem 0 1.5rem;">The "Hard Dig" Specialists:<br><span class="text-gradient">Scottsdale Caliche Rock</span></h1>
+                    <p style="font-size:1.15rem; color:var(--slate-300); line-height:1.7; margin-bottom:2rem;">Scottsdale isn't standard dirt. Between dense caliche hardpan and decomposed granite, most pool removals fail because the equipment isn't heavy enough. We specialize in the difficult excavations that standard contractors walk away from.</p>
+                    <div class="hero-bullets">
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> 1,500lb Hydraulic Breakers</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Rule 310 Dust Suppression</div>
+                        <div class="hero-bullet" style="display:flex; gap:0.6rem; color:var(--slate-300); font-size:0.95rem; margin-bottom:0.5rem;"><span style="color:#4ade80;">✓</span> Geotechnical Site Evaluation</div>
+                    </div>
+                </div>
+
+                <!-- CALCULATOR -->
+                <div>
+                    <div class="calc-card">
+                        <div class="calc-label">📍 Caliche Project Estimate</div>
+                        <p style="color: var(--slate-400); font-size: 0.85rem; margin-bottom: 1.25rem;">Calculate the cost of hard-rock pool removal in Scottsdale.</p>
+
+                        <div id="calcStep1" class="calc-step active">
+                            <div class="calc-question">What type of pool do you have?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('type','concrete',this)">🏗️ Concrete / Gunite</button>
+                                <button class="calc-opt" onclick="calcSelect('type','fiberglass',this)">🛥️ Fiberglass</button>
+                                <button class="calc-opt" onclick="calcSelect('type','vinyl',this)">🏊 Vinyl Liner</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep2" class="calc-step">
+                            <div class="calc-question">How large is your pool?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('size','small',this)">🔹 Small — Under 300 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','medium',this)">🔷 Medium — 300–600 sq ft</button>
+                                <button class="calc-opt" onclick="calcSelect('size','large',this)">💠 Large — 600+ sq ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcStep3" class="calc-step">
+                            <div class="calc-question">What's your yard access like?</div>
+                            <div class="calc-opts">
+                                <button class="calc-opt" onclick="calcSelect('access','easy',this)">🟢 Easy — 6ft+ gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','limited',this)">🟡 Limited — 4–6ft gate</button>
+                                <button class="calc-opt" onclick="calcSelect('access','difficult',this)">🔴 Difficult — Under 4ft</button>
+                            </div>
+                            <p id="calcFeedback" class="calc-feedback"></p>
+                        </div>
+
+                        <div id="calcResult" class="calc-step">
+                            <div class="calc-price-display">
+                                <div class="calc-price-label">Estimated Price Range</div>
+                                <div class="calc-price-val" id="calcPrice">—</div>
+                            </div>
+                            <p id="calcError" class="calc-error"></p>
+                            <input type="text" id="calcName" class="calc-input" placeholder="Full Name">
+                            <input type="tel" id="calcPhone" class="calc-input" placeholder="Phone Number">
+                            <button id="calcSubmitBtn" class="btn btn-primary btn-block" onclick="calcSubmitLead()">Get My Rock Quote →</button>
+                        </div>
+
+                        <div id="calcDone" class="calc-step">
+                            <div class="calc-done">
+                                <div class="calc-done-icon">✓</div>
+                                <h3 style="color: white; margin-bottom: 0.5rem;">Request Received!</h3>
+                                <p style="color: var(--slate-400); font-size: 0.9rem;">A specialist will call you shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: THE REALITY -->
+        <section id="geology" class="section">
+            <div class="container">
+                <div class="why-grid">
+                    <div>
+                        <span class="badge">TECHNICAL REALITY</span>
+                        <h2 style="font-size: 2.8rem; margin: 1.2rem 0 1rem;">Why Caliche Ruins<br>Standard Pool Removals</h2>
+                        <p style="color: var(--slate-300); line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem;">Caliche is a sedimentary rock-like layer common in <a href="/north-scottsdale/">North Scottsdale</a> and <a href="/paradise-valley/">Paradise Valley</a>. It doesn't drain, it doesn't break easily, and it destroys standard machinery. If you don't have a plan for the rock, your pool removal becomes a disaster.</p>
+                        
+                        <div class="fix-list">
+                            <div class="fix-item"><span>⚠️</span> **The Basin Effect**: If the caliche layer isn't fully penetrated, your filled-in pool becomes a subterranean "bowl" that traps water during Monsoons, leading to sudden sinkholes years later.</div>
+                            <div class="fix-item"><span>⚠️</span> **Machine Failure**: Standard skid-steers don't have the down-pressure to break caliche. They "bounce" off the surface, leading to weeks of delays and hidden surcharges.</div>
+                            <div class="fix-item"><span>⚠️</span> **Poor Compaction**: Hard rock chunks don't settle naturally. Without moisture-conditioning and heavy vibratory equipment, you'll have massive voids under your new yard. We solve this with <a href="/compaction-certification/">ASTM-certified compaction</a>.</div>
+                        </div>
+                    </div>
+                    <div class="why-img">
+                        <div style="background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 2.5rem;">
+                            <h3 style="color:white; margin-bottom:1.5rem; font-size: 1.5rem;">Our "Rock" Specs</h3>
+                            <ul style="color:var(--slate-300); font-size:1rem; line-height:2;">
+                                <li><strong>1,500lb Hydraulic Breakers:</strong> Industrial impact to slice through 4ft+ caliche layers.</li>
+                                <li><strong>Rule 310 Compliance:</strong> Active dust suppression to protect your neighbors and follow <a href="/pool-removal-permits/">Maricopa County law</a>.</li>
+                                <li><strong>Vibratory Sheep-Foot Rollers:</strong> Ensuring backfill is pressed into every caliche crevice.</li>
+                                <li><strong>Laser-Level Drainage:</strong> Grading built specifically for Arizona's high-intensity rain events.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: COMPARISON TABLE -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">KNOWLEDGE GAP</span>
+                    <h2>Standard Contractor vs. Geotechnical Specialist</h2>
+                    <p style="color:var(--slate-400); max-width:700px; margin: 1rem auto;">Don't let a "dirt guy" handle a rock project. Here is the difference in approach.</p>
+                </div>
+                
+                <div style="overflow-x: auto; margin-top: 3rem;">
+                    <table style="width: 100%; border-collapse: collapse; background: rgba(255,255,255,0.02); border-radius: 20px; border: 1px solid var(--glass-border);">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--glass-border);">
+                                <th style="padding: 1.5rem; text-align: left; color: white;">Feature</th>
+                                <th style="padding: 1.5rem; text-align: left; color: var(--slate-400);">Standard Contractor</th>
+                                <th style="padding: 1.5rem; text-align: left; color: var(--blue);">Arroyo Excavation Specialist</th>
+                            </tr>
+                        </thead>
+                        <tbody style="color: var(--slate-300);">
+                            <tr style="border-bottom: 1px solid var(--glass-border);">
+                                <td style="padding: 1.5rem; font-weight: 700; color: white;">Equipment</td>
+                                <td style="padding: 1.5rem;">Standard Bobcat (Small)</td>
+                                <td style="padding: 1.5rem;">1,500lb Hydraulic Impact Breakers</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--glass-border);">
+                                <td style="padding: 1.5rem; font-weight: 700; color: white;">Caliche Handling</td>
+                                <td style="padding: 1.5rem;">"Scrape and try" approach</td>
+                                <td style="padding: 1.5rem;">Surgical rock penetration & extraction</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--glass-border);">
+                                <td style="padding: 1.5rem; font-weight: 700; color: white;">Dust Control</td>
+                                <td style="padding: 1.5rem;">Hose and water (inconsistent)</td>
+                                <td style="padding: 1.5rem;">Maricopa Rule 310 Active Suppression</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem; font-weight: 700; color: white;">Compaction Guarantee</td>
+                                <td style="padding: 1.5rem;">"Tire-packed" (Visual only)</td>
+                                <td style="padding: 1.5rem;">95% Certified Proctor Standard</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CHECKLIST -->
+        <section class="section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; align-items: center;">
+                    <div class="checklist-img" style="background: var(--slate-800); height: 400px; border-radius: 24px; display: flex; align-items: center; justify-content: center; font-size: 5rem;">⛏️</div>
+                    <div>
+                        <span class="badge">HOMEOWNER CHECKLIST</span>
+                        <h2 style="font-size: 2.5rem; margin: 1rem 0;">Is Your Lot At Risk for Caliche?</h2>
+                        <ul style="list-style: none; padding: 0; margin-top: 2rem;">
+                            <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                                <span style="background: var(--blue); color: white; min-width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800;">1</span>
+                                <div><strong>Look at your soil:</strong> Does it have white, chalky veins or solid grey rock layers visible in nearby landscaping?</div>
+                            </li>
+                            <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                                <span style="background: var(--blue); color: white; min-width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800;">2</span>
+                                <div><strong>Drainage check:</strong> After rain, does water sit in puddles for days instead of soaking in? (Common in dense caliche zones).</div>
+                            </li>
+                            <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                                <span style="background: var(--blue); color: white; min-width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800;">3</span>
+                                <div><strong>Zip Code High-Risk:</strong> Are you in 85255, 85262, or 85253? These are the primary "Hard Dig" zones in Scottsdale.</div>
+                            </li>
+                            <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                                <span style="background: var(--blue); color: white; min-width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800;">4</span>
+                                <div><strong>Pool Age:</strong> Pools built in the 70s/80s often avoided the deep caliche by building "up." Removing them requires deeper penetration.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: FAQ -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header" style="text-align: center;">
+                    <span class="badge">FAQ</span>
+                    <h2>Technical Caliche Questions</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+                    <div class="faq-item-expanded card glass" style="padding: 2rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">How deep does caliche go in Scottsdale?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">It varies wildly. In North Scottsdale, we frequently encounter 2-3 foot thick layers of solid calcium carbonate. Our equipment is rated to break up to 6 feet of hardened shell depth.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Will the rock breaking vibrate my house?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">We use specialized "Impact Damping" techniques. By pre-cutting the concrete shell, we isolate the vibrations so your home's foundation remains safe during the heavy rock-breaking phase.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Does this cost more than a normal removal?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Yes. Caliche excavation generally adds $1,500 - $3,500 to a project due to the specialized machinery and additional labor hours required to ensure proper drainage.</p>
+                    </div>
+                    <div class="faq-item-expanded card glass" style="padding: 2rem;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Why is Rule 310 important for rock work?</h4>
+                        <p style="color: var(--slate-400); font-size: 0.95rem;">Breaking caliche creates heavy silica dust. Maricopa County Rule 310 requires strict dust control to prevent local air pollution. We use continuous misting systems to stay 100% compliant.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="/" class="logo"><span class="brand-accent">Arroyo</span> Excavation Co.</a>
+                <p class="footer-sub">Scottsdale's Technical Pool Specialists<br>ROC Licensed · MCESD Compliant · Rule 310 Approved</p>
+                <a href="tel:+14806130422" style="display:inline-block; margin-top: 1rem; color: var(--blue); font-weight: 700; font-size: 1.1rem;">(480) 613-0422</a>
+            </div>
+            <div class="footer-links">
+                <h4>Technical Entities</h4>
+                <a href="/caliche-excavation/">Caliche Rock Specialist</a>
+                <a href="/engineered-backfill/">95% Certified Backfill</a>
+                <a href="/pool-removal-permits/">MCESD & Rule 310 Permits</a>
+                <a href="/fiberglass-pool-removal/">Fiberglass Extraction</a>
+                <a href="/building-after-pool-removal/">Build-Ready Pads</a>
+            </div>
+            <div class="footer-links">
+                <h4>Neighborhoods</h4>
+                <a href="/paradise-valley/">Paradise Valley</a>
+                <a href="/north-scottsdale/">North Scottsdale</a>
+                <a href="/mccormick-ranch/">McCormick Ranch</a>
+                <a href="/fountain-hills/">Fountain Hills</a>
+                <a href="/cave-creek/">Cave Creek & Carefree</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
