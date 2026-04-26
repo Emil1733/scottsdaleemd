@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = 'https://nbeqlzzpxxydgmfactzm.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5iZXFsenpweHh5ZGdtZmFjdHptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3NzMyMjEsImV4cCI6MjA3MTM0OTIyMX0.x_oBYIkqkgtZCqcjVJb7mipojIAM4sHwsDJsDVutnhs'
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // ─── HOMEPAGE CALCULATOR ───────────────────────────────────────────────
@@ -68,8 +68,10 @@ window.calcSubmitLead = async function() {
     const phone = document.getElementById('calcPhone').value.trim()
     const btn   = document.getElementById('calcSubmitBtn')
     const err   = document.getElementById('calcError')
+    const honey = document.getElementById('calcHoney')?.value
 
     if (!name || !phone) { err.style.display = 'block'; err.textContent = 'Please enter your name and phone.'; return }
+    if (honey) { console.warn('Bot detected'); return }
 
     btn.disabled = true
     btn.textContent = 'Sending...'
@@ -121,7 +123,9 @@ window.selectModalPool = function(type) {
 window.submitModalLead = async function() {
     const name  = document.getElementById('modalName').value.trim()
     const phone = document.getElementById('modalPhone').value.trim()
+    const honey = document.getElementById('modalHoney')?.value
     if (!name || !phone) { alert('Please enter your name and phone number.'); return }
+    if (honey) { console.warn('Bot detected'); return } // Silent rejection
 
     const { error } = await supabase.from('emd_leads_atlanta').insert([{
         full_name: name,
@@ -152,9 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const errEl  = document.getElementById('contactError')
             const name   = document.getElementById('contactName').value.trim()
             const phone  = document.getElementById('contactPhone').value.trim()
+            const honey  = document.getElementById('contactHoney')?.value
             const pType  = document.getElementById('contactPoolType').value
             const svc    = document.getElementById('contactService').value
 
+            if (honey) { console.warn('Bot detected'); return }
             btn.disabled = true; btn.textContent = 'Sending...'; errEl.style.display = 'none'
 
             const { error } = await supabase.from('emd_leads_atlanta').insert([{

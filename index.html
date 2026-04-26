@@ -248,6 +248,7 @@
 
                         <!-- Result + Lead Form -->
                         <div id="calcResult" class="calc-step">
+                            <input type="text" id="calcHoney" style="display:none !important" tabindex="-1" autocomplete="off">
                             <div class="calc-price-display">
                                 <div class="calc-price-label">Your Estimated Range</div>
                                 <div class="calc-price-val" id="calcPrice">—</div>
@@ -739,6 +740,7 @@
                 <h3>Your <span class="brand-accent">Contact Info</span></h3>
                 <p class="modal-sub">Final step — we'll call with your estimate.</p>
                 <div class="modal-fields">
+                    <input type="text" id="modalHoney" style="display:none !important" tabindex="-1" autocomplete="off">
                     <input type="text" id="modalName" placeholder="Full Name" class="modal-input">
                     <input type="tel" id="modalPhone" placeholder="Phone Number" class="modal-input">
                     <button class="btn btn-primary btn-block" onclick="submitModalLead()">Send My Estimate →</button>
