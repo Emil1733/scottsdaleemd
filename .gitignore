@@ -4,3 +4,5 @@ dist/
 *.log
 .env
 .env.local
+gsc-credentials.json
+ping-indexing.js

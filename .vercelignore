@@ -1,0 +1,6 @@
+gsc-credentials.json
+ping-indexing.js
+.env.local
+.git
+node_modules
+*.log

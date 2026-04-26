@@ -1,0 +1,912 @@
+[
+  {
+    "path": "about/index.html",
+    "title": {
+      "text": "About Arroyo Excavation Co. | Scottsdale Pool Removal",
+      "length": 53,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "15+ years of pool removal in Scottsdale & Maricopa County. Licensed ROC contractors specializing in caliche excavation and engineered backfill.",
+      "length": 143,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Scottsdale's GeotechnicalPool Removal Authority",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/about/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 1,
+      "missingAlt": 0,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "blog/full-vs-partial-pool-removal-arizona/index.html",
+    "title": {
+      "text": "Full vs Partial Pool Removal Arizona | Which Is Right?",
+      "length": 54,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Full pool extraction vs partial fill-in demolition for Arizona homeowners. Soil compaction, permit, and resale implications explained.",
+      "length": 134,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Full vs. Partial Pool Removal in Arizona",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/blog/full-vs-partial-pool-removal-arizona/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "blog/how-to-prepare-your-yard-scottsdale/index.html",
+    "title": {
+      "text": "Scottsdale Pool Removal Prep Guide | Pre-Demo Checklist",
+      "length": 55,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "The exact checklist Arroyo Excavation Co. sends homeowners 72 hours before demo day. Utilities, HOA, pets, access, and permits covered.",
+      "length": 135,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "How to Prepare Your Yard for Pool Removal in Scottsdale",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/blog/how-to-prepare-your-yard-scottsdale/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "blog/index.html",
+    "title": {
+      "text": "Pool Removal Resources & Blog | Arroyo Excavation Co.",
+      "length": 53,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Expert guides on pool removal in Scottsdale. Real costs, caliche soil, Maricopa permits, and full vs partial removal — explained by local specialists.",
+      "length": 150,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Scottsdale Pool Removal:Technical Guides & Costs",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/blog/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "blog/scottsdale-pool-removal-cost-guide-2026/index.html",
+    "title": {
+      "text": "Pool Removal Cost Guide 2026 Scottsdale | AZ Pricing",
+      "length": 52,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Exact 2026 pricing for pool removal in Scottsdale. Permits, caliche surcharges, full vs partial costs — everything a Maricopa County homeowner needs to know.",
+      "length": 157,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Scottsdale Pool Removal Cost Guide 2026",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/blog/scottsdale-pool-removal-cost-guide-2026/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "building-after-pool-removal/index.html",
+    "title": {
+      "text": "Building After Pool Removal Scottsdale | ADU & Casita Pads",
+      "length": 58,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Can you build over a removed pool in Scottsdale? Yes—with our 95% certified compaction. Expert ground prep for guest houses, casitas, and ADUs in Scottsdale, AZ.",
+      "length": 161,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Can You Build OverA Removed Pool?",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/building-after-pool-removal/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "caliche-excavation/index.html",
+    "title": {
+      "text": "Caliche Rock Excavation Scottsdale | Hard Dig Pool Specialists",
+      "length": 62,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Specialized caliche and hardpan excavation in Scottsdale. 1,500lb hydraulic hammers for Arizona rock layers. 95% compaction and monsoon-ready drainage.",
+      "length": 151,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "The \"Hard Dig\" Specialists:Scottsdale Caliche Rock",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/caliche-excavation/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "carefree/index.html",
+    "title": {
+      "text": "Carefree Pool Removal & Demolition | Desert Soil Engineering",
+      "length": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Professional pool removal in Carefree, AZ. Experts in native desert soil restoration, drainage flow correction, and heavy-duty demolition for acreage lots.",
+      "length": 155,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Carefree Pool Removal | Desert Restoration",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/carefree/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "cave-creek/index.html",
+    "title": {
+      "text": "Pool Removal Cave Creek & Carefree AZ | High-Rock Specialist",
+      "length": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Specialized pool removal in Cave Creek (85331). Heavy-rock excavation using 1,500lb breakers and 95% certified backfill. Local engineering specialists.",
+      "length": 151,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Cave Creek Pool Removal& Extreme Rock Excavation",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/cave-creek/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "compaction-certification/index.html",
+    "title": {
+      "text": "95% Compaction Certification Scottsdale | ASTM D1557 Standards",
+      "length": 62,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "What is 95% compaction? Learn about ASTM D1557 standards, Modified Proctor tests, and why compaction certification is required for pool removal in Scottsdale.",
+      "length": 158,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "CompactionCertification Guide",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/compaction-certification/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "contact/index.html",
+    "title": {
+      "text": "Pool Removal Estimate Scottsdale | Arroyo Excavation",
+      "length": 52,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Get a free pool removal estimate in Scottsdale. Call, text, or fill out our form — a licensed Maricopa County specialist will respond within 24 hours.",
+      "length": 150,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Get Your Free Estimate",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/contact/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "engineered-backfill/index.html",
+    "title": {
+      "text": "Engineered Backfill Scottsdale | 95% Compaction Specialist",
+      "length": 58,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Certified 95% compaction and engineered backfill for Scottsdale pool removal. Multi-stage 12-inch lift methods and geotechnical Proctor testing.",
+      "length": 144,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Scottsdale Engineered Backfill& 95% Certified Compaction",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/engineered-backfill/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "fiberglass-pool-removal/index.html",
+    "title": {
+      "text": "Fiberglass Pool Removal Scottsdale | Marine-Grade Extraction",
+      "length": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Expert fiberglass pool removal in Scottsdale. We handle shell extraction, hydrostatic pressure management, and 95% certified backfill for fiberglass pool replacement.",
+      "length": 166,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "FiberglassPool Extraction",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/fiberglass-pool-removal/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "fountain-hills/index.html",
+    "title": {
+      "text": "Pool Removal Fountain Hills AZ | Rock & Hillside Specialists",
+      "length": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Specialized pool removal in Fountain Hills (85268). Technical rock breakers for slope stability and 95% certified backfill. Local HOA and permit compliance.",
+      "length": 156,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Fountain HillsPool Removal & Rock Digs",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/fountain-hills/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "gainey-ranch/index.html",
+    "title": {
+      "text": "Gainey Ranch Pool Removal Scottsdale | HOA-Compliant Demolition",
+      "length": 63,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Surgical pool removal in Gainey Ranch, Scottsdale. Experts in discreet, HOA-compliant demolition, low-impact machinery, and estate property protection.",
+      "length": 151,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Gainey Ranch Pool Removal | Discreet & Precise",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/gainey-ranch/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "grayhawk/index.html",
+    "title": {
+      "text": "Grayhawk Pool Removal | Scottsdale Engineering Specialists",
+      "length": 58,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Professional pool removal in Grayhawk, Scottsdale. Specialists in engineered backfill, yard reclamation, and 95% compaction certification for outdoor living.",
+      "length": 157,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Grayhawk Pool Removal Scottsdale | Reclaim Your Yard",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/grayhawk/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "index.html",
+    "title": {
+      "text": "Scottsdale Pool Removal Specialists | Arroyo Excavation Co.",
+      "length": 59,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Scottsdale's pool removal specialists. Expert in caliche excavation, engineered backfill, and Maricopa County permits. North Scottsdale & Paradise Valley.",
+      "length": 154,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Pool Removal inScottsdale, AZ",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 4,
+      "missingAlt": 0,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "mccormick-ranch/index.html",
+    "title": {
+      "text": "Pool Removal McCormick Ranch Scottsdale | HOA Compliance Expert",
+      "length": 63,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Specialized pool removal for McCormick Ranch, Scottsdale (85258). We handle aging pool extraction, strict 85258 HOA compliance, and landscape preservation. Get a quote.",
+      "length": 168,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Pool Removal inMcCormick Ranch",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/mccormick-ranch/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "north-scottsdale/index.html",
+    "title": {
+      "text": "North Scottsdale Pool Removal | DC Ranch & Troon Specialists",
+      "length": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Technical pool removal in North Scottsdale. Specialists in DC Ranch, Silverleaf, and Troon North caliche excavation and 95% certified engineered backfill.",
+      "length": 154,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "North ScottsdalePool Removal Specialists",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/north-scottsdale/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "paradise-valley/index.html",
+    "title": {
+      "text": "Paradise Valley Pool Removal | Luxury Estate Specialists",
+      "length": 56,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Paradise Valley pool removal specialists. Managed estate logistics, Rule 310 dust control, and 95% certified backfill for high-value properties.",
+      "length": 144,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Paradise ValleyPool Removal Specialists",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/paradise-valley/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "pool-demolition/index.html",
+    "title": {
+      "text": "Pool Demolition Scottsdale | Partial Fill-In Specialists",
+      "length": 56,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Expert partial pool demolition in Scottsdale. 72-hour direct fill-in for turf and landscaping. Licensed Maricopa County specialists.",
+      "length": 132,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Scottsdale PoolDemolition Service",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/pool-demolition/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "pool-removal/index.html",
+    "title": {
+      "text": "Pool Removal Scottsdale | Maricopa County Specialists",
+      "length": 53,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Full pool removal, partial demolition, and caliche rock excavation in Scottsdale. 95% compaction guaranteed. Licensed Maricopa County specialists.",
+      "length": 146,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Pool Removal Servicesin Scottsdale, AZ",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/pool-removal/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 2,
+      "missingAlt": 0,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "pool-removal-cost/index.html",
+    "title": {
+      "text": "Scottsdale Pool Removal Cost 2026 | Maricopa Pricing",
+      "length": 52,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Real 2026 pricing for pool removal in Scottsdale. Caliche soil surcharges, Maricopa permit fees, and full vs partial demolition costs explained.",
+      "length": 144,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Pool Removal Cost inScottsdale, AZ",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/pool-removal-cost/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 1,
+      "missingAlt": 0,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "pool-removal-permits/index.html",
+    "title": {
+      "text": "Pool Removal Permits Scottsdale & Maricopa County | MCESD Guide",
+      "length": 63,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Guide to pool removal permits in Scottsdale and Maricopa County. Navigating MCESD, Rule 310, and municipal building codes for residential decommissioning.",
+      "length": 154,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Navigating ScottsdalePool Removal Permits",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/pool-removal-permits/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "troon-north/index.html",
+    "title": {
+      "text": "Troon North Pool Removal | Precision Caliche Excavation",
+      "length": 55,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Specialized pool removal in Troon North, Scottsdale. Experts in high-impact hydraulic caliche excavation, granite shelf removal, and engineered backfill.",
+      "length": 153,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Troon North Pool Removal | Precision Excavation",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/troon-north/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 6,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  },
+  {
+    "path": "vinyl-liner-pool-removal/index.html",
+    "title": {
+      "text": "Vinyl Liner Pool Removal Scottsdale | Cost-Effective Extraction",
+      "length": 63,
+      "status": "PASS"
+    },
+    "description": {
+      "text": "Affordable vinyl liner pool removal in Scottsdale. We handle liner disposal, sand-base stabilization, and certified backfill for vinyl pool decommissioning.",
+      "length": 156,
+      "status": "PASS"
+    },
+    "h1": {
+      "count": 1,
+      "text": "Vinyl LinerPool Removal",
+      "status": "PASS"
+    },
+    "canonical": {
+      "text": "https://scottsdalepoolremoval.com/vinyl-liner-pool-removal/",
+      "status": "PASS"
+    },
+    "og": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "schema": {
+      "count": 1,
+      "status": "PASS"
+    },
+    "images": {
+      "total": 0,
+      "missingAlt": 0,
+      "status": "INFO (No Images)"
+    }
+  }
+]
