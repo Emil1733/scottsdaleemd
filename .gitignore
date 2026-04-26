@@ -6,3 +6,23 @@ dist/
 .env.local
 gsc-credentials.json
 ping-indexing.js
+
+# Private Data & Reports
+gsc/
+seo-audit-results.json
+
+# Local Utility Scripts (Sensitive)
+test-insert.js
+list-tables.js
+check-db.js
+check-atlanta.js
+check-supabase.js
+
+# Local Tools
+count-words.js
+pull-gsc-data.js
+sync-footers.js
+inject-links.js
+link-audit.js
+seo-audit.js
+fix-metadata.js
