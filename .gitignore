@@ -10,6 +10,7 @@ ping-indexing.js
 # Private Data & Reports
 gsc/
 seo-audit-results.json
+improvements/
 
 # Local Utility Scripts (Sensitive)
 test-insert.js
